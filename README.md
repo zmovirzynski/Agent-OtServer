@@ -96,6 +96,11 @@ Cada `AGENT_XXXX.md` descreve o comportamento esperado de um agente de IA espec√
   - Mistura de muitas responsabilidades num √∫nico trecho.
 - Gera: `CODE_SMELLS.md`.
 
+### 8. `AGENT_ARCHITECTURE_DOC.md`
+**Foco:** Detalhar o funcionamento do servidor e arquitetura, o que cada arquivo faz.
+
+- Gera: `ARCHITECTURE_GUIDE.md`.
+
 ---
 
 ## Orquestrador
