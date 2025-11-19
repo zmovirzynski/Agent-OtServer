@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<professions>
+	<profession id="0" clientid="0" name="Pokemon Trainer" description="a pokemon trainer" gaincap="10" gainhp="5" gainhpticks="6" gainhpamount="1" attackspeed="2000" basespeed="220" allowPvp="0" fromvoc="0">
+		<skill id="0" multiplier="1.0" />
+	</profession>
+</professions>

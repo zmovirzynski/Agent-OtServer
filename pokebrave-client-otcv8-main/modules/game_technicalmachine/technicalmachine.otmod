@@ -1,0 +1,9 @@
+Module
+  name: game_technicalmachine
+  description: TM Window
+  author: none
+  website: none
+  sandboxed: true
+  scripts: [ technicalmachine ]
+  @onLoad: init()
+  @onUnload: terminate()

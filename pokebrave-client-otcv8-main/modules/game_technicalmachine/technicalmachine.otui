@@ -1,0 +1,51 @@
+TMText < UIWidget
+  color: white
+  text-align: left
+  font: lucida-11px-rounded
+
+  $hover:
+    color: #00FFFF
+
+  $focus:
+    color: #ED2939
+
+Window
+  size: 200 240
+  text: Select TM
+  anchors.centerIn: parent
+  focusable: false
+
+  ScrollablePanel
+    id: flatPanelTM
+    anchors.fill: parent
+    margin: 0 20 48 0
+    vertical-scrollbar: TMScrollBar
+    layout:
+      type: grid
+      cell-size: 180 20
+      cell-spacing: 0
+      flow: true
+
+  VerticalScrollBar
+    id: TMScrollBar
+    anchors.top: parent.top
+    anchors.bottom: flatPanelTM.bottom
+    anchors.right: parent.right
+    step: 14
+    pixels-scroll: true
+
+  Button
+    text: Close
+    size: 60 20
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    @onClick: hide()
+
+  Button
+    id: select
+    text: Select
+    size: 60 20
+    anchors.left: parent.left
+    anchors.bottom: parent.bottom
+
+
